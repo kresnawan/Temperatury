@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+
+@media only screen and (min-width: 320px) {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat', sans-serif;
+        overflow: hidden;
+        color: white;
+    }
+    
+    .container {
+        min-width: 320px;
+    }
+    
+    body {
+        background-color: rgb(47, 46, 54);
+    }
+    
+    .content {
+        max-width: 425px;
+        margin: 0 auto;
+        text-align: center;
+        /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.116); */
+        border: 1px solid rgb(70, 68, 82);
+        background-color: rgb(61, 59, 71);
+        height: 2000px;
+        margin-top: 50px;
+        padding: 30px;
+        border-radius: 10px;
+        position: relative;
+    }
+    
+    .header {
+        margin-bottom: 50px;
+        font-size: 17px;
+    }
+    
+    .temp {
+        margin-bottom: 30px;
+        /* width: 258px; */
+    }
+    
+    .temp label {
+        font-size: 15px;
+        font-weight: 500;
+        margin-bottom: 5px;
+        display: block;
+    }
+    
+    .temp input {
+        width: 238px;
+        max-width: 100%;
+        height: 40px;
+        padding: 0 10px;
+        font-size: 1.20em;
+        border-style: none;
+        margin: 0;
+        font-weight: 500;
+        border-radius: 7px;
+        /* color: rgb(47, 46, 54); */
+        color: rgb(255, 255, 255);
+        background-color: rgb(86, 83, 100);
+    }
+    
+    .temp input:focus {
+        outline: none;
+    }
+    
+    .bottom {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .icons {
+        margin-top: 10px;
+        font-size: 23px;
+        text-align: center; 
+    }
+
+    .bottom p {
+        font-size: 14px;
+    }
+    
+    .icon {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .github {
+        margin-left: 10px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .content {
+        max-width: 700px;
+    }
+
+    .header {
+        font-size: 26px;
+    }
+
+    .temp label {
+        display: contents;
+        font-size: 20px;
+
+    }
+
+    .temp input {
+        margin-left: 10px;
+    }
+
+    .bottom p {
+        font-size: 16px;
+    }
+
+    .icons {
+        font-size: 30px;
+    }
+}
