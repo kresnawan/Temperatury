@@ -39,7 +39,7 @@ const Main = () => {
             <div className="container">
                 <div className="content">
                     <div className="header">
-                        <h2>Temperatury</h2>
+                        <h2>Anjay</h2>
                     </div>
                     <div className="input">
                         <div className="temp">
