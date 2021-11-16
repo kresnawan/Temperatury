@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faFacebook } from '@fortawesome/free-brands-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { useState, useEffect } from 'react'
 import '../css/styles.css'
 
@@ -39,7 +39,7 @@ const Main = () => {
             <div className="container">
                 <div className="content">
                     <div className="header">
-                        <h2>Anjay</h2>
+                        <h2>Temperatury</h2>
                     </div>
                     <div className="input">
                         <div className="temp">
