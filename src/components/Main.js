@@ -25,7 +25,7 @@ const Main = () => {
         } else {
             const a = x.toString(10);
             const c = a.split(".")[0];
-            const b = a.split(".")[1].slice(0, 1);
+            const b = a.split(".")[1].slice(0, 2);
     
             const d = c + "." + b;
 
